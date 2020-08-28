@@ -52,5 +52,8 @@ nav {
     margin-right: auto;
 }
 #homeimage {
-    display: inline;
+    width: 42%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
 }
