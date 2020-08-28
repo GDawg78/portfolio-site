@@ -1,7 +1,6 @@
 * {
 	margin: 0;
     padding: 0;
-    background-color: aqua;
 }
 p {
     font-family: Playfair Display;
@@ -10,16 +9,13 @@ p {
 nav {
     background-color: #ffba49;
     display: flex inline;
-	justify-content: space-around;
+    justify-content: space-around;
+        {font-family: 'Noto Sans', sans-serif;
+        }
 }
 #pageid {
     display: inline;
     font-family: 'Monoton', cursive;
     font-size: auto;
 }
-.footerimage {
-    img {
-        display: inline;
-        width: 10%;
-    }
 }
