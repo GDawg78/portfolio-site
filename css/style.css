@@ -86,5 +86,7 @@ nav {
           justify-content: center;
   -ms-flex-negative: 3;
       flex-shrink: 3;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
