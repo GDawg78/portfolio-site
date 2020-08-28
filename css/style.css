@@ -18,6 +18,10 @@ nav {
 
 footer {
   display: flex inline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #pageid {
