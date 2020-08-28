@@ -21,7 +21,7 @@ nav {
   font-size: auto;
 }
 
-#footerimage img {
+.footerimage img {
   display: inline;
   width: 10%;
 }
