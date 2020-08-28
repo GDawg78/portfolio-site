@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: aqua;
 }
 
 p {
@@ -14,16 +13,12 @@ nav {
   display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  font-size: 30px;
 }
 
 #pageid {
   display: inline;
   font-family: 'Monoton', cursive;
   font-size: auto;
-}
-
-.footerimage img {
-  display: inline;
-  width: 10%;
 }
 /*# sourceMappingURL=style.css.map */
