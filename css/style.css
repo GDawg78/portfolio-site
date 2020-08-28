@@ -10,7 +10,6 @@ p {
 
 nav {
   background-color: #ffba49;
-  display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: end;
