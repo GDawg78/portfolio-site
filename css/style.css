@@ -19,7 +19,7 @@ h1 {
 nav {
   background-color: #ffba49;
   font-family: 'Poiret One', cursive;
-  font-size: auto;
+  font-size: 20pt;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
