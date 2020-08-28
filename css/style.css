@@ -85,6 +85,8 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 85px;
+  width: 32%;
+  height: auto;
 }
 
 #homeimage {
