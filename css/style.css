@@ -10,10 +10,6 @@ p {
 
 nav {
   background-color: #ffba49;
-  display: flex inline;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
