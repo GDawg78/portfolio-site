@@ -12,7 +12,8 @@ img {
 
 nav {
     background-color: #ffba49;
-    display: flex-end;
+    display: flex;
+    justify-content: flex-end;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
 }
