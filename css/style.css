@@ -40,7 +40,7 @@ footer {
   border: 15px;
 }
 
-#footerimage #navinline a {
+#footerimage .navinline a {
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
