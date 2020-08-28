@@ -16,6 +16,10 @@ nav {
       justify-content: space-around;
 }
 
+footer {
+  display: flex inline;
+}
+
 #pageid {
   font-family: 'Monoton', cursive;
   font-size: 50em;
