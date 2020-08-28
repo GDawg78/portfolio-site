@@ -70,5 +70,7 @@ nav {
 #footerimg {
   width: 25%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
