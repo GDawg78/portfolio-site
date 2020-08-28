@@ -13,13 +13,12 @@ h1 {
     font-family: 'Poiret One', cursive;
 }
 footer {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
     flex-direction: row;
     flex-shrink: 3;
     justify-content: center;
-    justify-content: space-around;
 }
 nav {
     background-color: #ffba49;
@@ -30,6 +29,7 @@ nav {
     flex-wrap: wrap;
     flex-shrink: 3;
     justify-content: center;
+    justify-content: space-around;
 }
 #pageid {
     display: flex;
