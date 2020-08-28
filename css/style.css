@@ -17,4 +17,9 @@ nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+#pageid {
+  font-family: 'Monoton', cursive;
+  font-size: 60pt;
+}
 /*# sourceMappingURL=style.css.map */
