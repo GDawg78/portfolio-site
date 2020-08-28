@@ -17,9 +17,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: flex-end, space-between;
+      -ms-flex-pack: flex-end, space-between;
+          justify-content: flex-end, space-between;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
