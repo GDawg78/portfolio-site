@@ -13,6 +13,7 @@ nav {
   display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
 
