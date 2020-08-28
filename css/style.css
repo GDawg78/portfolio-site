@@ -20,9 +20,8 @@ nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
