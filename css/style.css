@@ -22,8 +22,7 @@ nav {
 }
 
 #footerimage img {
-  width: 10vw;
-  -o-object-fit: contain;
-     object-fit: contain;
+  display: inline;
+  width: 10%;
 }
 /*# sourceMappingURL=style.css.map */
