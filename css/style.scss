@@ -12,10 +12,9 @@ img {
 
 nav {
     background-color: #ffba49;
-    display: flex;
+    display: flex, inline;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
-    display: inline;
 }
 #pageid {
     display: inline;
