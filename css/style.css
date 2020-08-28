@@ -12,9 +12,11 @@ nav {
   background-color: #ffba49;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
+  display: inline;
 }
 
 #pageid {
+  display: inline;
   font-family: 'Monoton', cursive;
   font-size: auto;
 }
