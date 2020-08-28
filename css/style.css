@@ -41,9 +41,8 @@ footer {
 }
 
 #footerimage #navinline a {
-  display: inline;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 480px) {
