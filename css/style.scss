@@ -18,7 +18,8 @@ nav {
     font-size: 30px;
 }
 #pageid {
-    display: inline;
+    display: flex;
+    justify-content: flex-start;
     font-family: 'Monoton', cursive;
     font-size: auto;
 }
