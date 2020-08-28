@@ -34,13 +34,8 @@ footer {
 }
 
 #footerimage img {
-  width: auto;
+  width: 20vw;
   -o-object-fit: contain;
      object-fit: contain;
-  border: 15px;
-}
-
-@media screen and (min-width: 480px) {
-  width: 15px;
 }
 /*# sourceMappingURL=style.css.map */

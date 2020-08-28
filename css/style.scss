@@ -23,11 +23,7 @@ footer {
 }
 #footerimage {
     img {
-        width:auto;
+        width: 20vw;
         object-fit: contain;
-        border: 15px;
     }
 }
-@media screen and (min-width: 480px) {
-        width: 15px;
-    }
