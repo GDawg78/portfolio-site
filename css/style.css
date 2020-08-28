@@ -27,9 +27,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -ms-flex-negative: 3;
       flex-shrink: 3;
   -webkit-box-pack: justify;
