@@ -10,7 +10,6 @@ p {
 
 nav {
   background-color: #ffba49;
-  padding: 30px 20px;
   display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -27,5 +26,9 @@ footer {
 #pageid {
   font-family: 'Monoton', cursive;
   font-size: 50em;
+}
+
+#footerimage img {
+  width: 40em;
 }
 /*# sourceMappingURL=style.css.map */
