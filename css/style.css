@@ -40,6 +40,6 @@ footer {
 }
 
 @media screen and (min-width: 480px) {
-  width: 30px;
+  width: auto;
 }
 /*# sourceMappingURL=style.css.map */
