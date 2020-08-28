@@ -19,6 +19,7 @@ nav {
     font-size: 20pt;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     flex-shrink: 3;
     justify-content: space-between;
 }
