@@ -47,6 +47,9 @@ nav {
       flex-wrap: wrap;
   -ms-flex-negative: 3;
       flex-shrink: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
