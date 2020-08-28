@@ -72,6 +72,8 @@ nav {
 }
 
 #homelinkimage {
+  width: 12%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,14 +81,10 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-negative: 3;
-      flex-shrink: 3;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 85px;
-  width: 32%;
-  height: auto;
 }
 
 #homeimage {

@@ -42,13 +42,12 @@ nav {
     height: auto;
 }
 #homelinkimage {
+    width: 12%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    flex-shrink: 3;
     justify-content: center;
     margin-left: 85px;
-    width: 32%;
-    height: auto;
 }
 #homeimage {
     width: 42%;
