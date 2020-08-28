@@ -9,17 +9,15 @@ p {
 }
 
 nav {
-  background-color: ffba49;
+  background-color: #ffba49;
   padding: 30px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 #pageid {
   font-family: 'Monoton', cursive;
-  font-size: 60pt;
+  font-size: 50em;
 }
 /*# sourceMappingURL=style.css.map */
