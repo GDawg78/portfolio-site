@@ -26,6 +26,9 @@ footer {
           flex-direction: row;
   -ms-flex-negative: 3;
       flex-shrink: 3;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 5px;
 }
 
