@@ -18,7 +18,7 @@ h1 {
 
 footer {
   margin-left: 100px;
-  margin-right: auto;
+  margin-right: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
