@@ -12,7 +12,11 @@ img {
 h1 {
     font-family: 'Poiret One', cursive;
 }
-
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 3;
+}
 nav {
     background-color: #ffba49;
     font-family: 'Poiret One', cursive;

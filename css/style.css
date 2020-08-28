@@ -16,6 +16,18 @@ h1 {
   font-family: 'Poiret One', cursive;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
 nav {
   background-color: #ffba49;
   font-family: 'Poiret One', cursive;
