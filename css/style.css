@@ -93,7 +93,6 @@ nav {
 #homeimage {
   width: 42%;
   height: auto;
-  vertical-align: middle;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
