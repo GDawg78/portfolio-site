@@ -16,6 +16,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-shrink: 3;
+    margin: 5px;
 }
 nav {
     background-color: #ffba49;
@@ -32,4 +33,8 @@ nav {
     justify-content: flex-start;
     font-family: 'Monoton', cursive;
     font-size: auto;
+}
+#footerimg {
+    width: 15%;
+    height: auto;
 }
