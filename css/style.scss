@@ -18,7 +18,7 @@ footer {
 }
 #pageid {
     font-family: 'Monoton', cursive;
-    font-size: 30px;
+    font-size: auto;
 }
 #footerimage {
     img {
@@ -26,6 +26,13 @@ footer {
         object-fit: contain;
         border: 15px;
     }
+#navinline {
+    a {
+        display: inline;
+        font-family: 'Noto Sans', sans-serif;;
+        font-size: 20px;
+    }
+}
 }
 @media screen and (min-width: 480px) {
         width: 15px;
