@@ -24,10 +24,8 @@ nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
 }
 
 #pageid {
