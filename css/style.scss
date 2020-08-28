@@ -1,5 +1,6 @@
 * {
-	margin: 0;
+	margin-left: auto;
+    margin-right: auto;
     padding: 0;
 }
 p {
@@ -13,8 +14,6 @@ h1 {
     font-family: 'Poiret One', cursive;
 }
 footer {
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     flex-direction: row;
     flex-shrink: 3;
