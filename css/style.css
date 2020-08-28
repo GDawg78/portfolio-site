@@ -36,6 +36,7 @@ footer {
   width: auto;
   -o-object-fit: contain;
      object-fit: contain;
+  border: 15px;
 }
 
 @media screen and (min-width: 480px) {
