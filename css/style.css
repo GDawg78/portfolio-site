@@ -13,6 +13,9 @@ nav {
   display: flex inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
 }
