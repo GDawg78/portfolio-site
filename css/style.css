@@ -105,5 +105,8 @@ nav {
   width: 42%;
   height: auto;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
