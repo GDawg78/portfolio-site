@@ -102,5 +102,8 @@ nav {
 
 .homebox {
   width: auto;
+  width: 42%;
+  height: auto;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
