@@ -76,6 +76,12 @@ nav {
   height: auto;
 }
 
+.homebox {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 #homeimage {
   width: 42%;
   height: auto;
