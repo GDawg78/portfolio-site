@@ -57,8 +57,7 @@ nav {
 }
 
 #navinline {
-  position: absolute;
-  bottom: 0;
+  vertical-align: bottom;
 }
 
 #pageid {
