@@ -59,8 +59,8 @@ nav {
       justify-content: space-around;
 }
 
-#navinline {
-  margin-bottom: 11px;
+.navinline {
+  margin-bottom: 20px;
 }
 
 #pageid {
