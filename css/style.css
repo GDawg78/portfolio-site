@@ -98,6 +98,7 @@ nav {
           flex-direction: column;
   -ms-flex-negative: 3;
       flex-shrink: 3;
+  float: left;
 }
 
 .homebox {
