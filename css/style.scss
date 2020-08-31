@@ -44,6 +44,10 @@ nav {
 #homelinkimage {
     width: 30%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 3;
 }
 .homebox {
     width: 200px;
