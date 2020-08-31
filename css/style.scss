@@ -28,14 +28,12 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-end;
     flex-shrink: 3;
     justify-content: center;
     justify-content: space-around;
 }
 #navinline {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
     margin-bottom: 10px;
 }
 #pageid {
