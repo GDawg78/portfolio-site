@@ -33,7 +33,8 @@ nav {
     justify-content: space-around;
 }
 #navinline {
-    margin-bottom: 0%;
+    position:absolute;
+    bottom:0;
 }
 #pageid {
     display: flex;
