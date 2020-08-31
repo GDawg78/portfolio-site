@@ -124,9 +124,9 @@ nav {
   display: flex;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
-  -webkit-box-align: center space-around;
-      -ms-flex-align: center space-around;
-          align-items: center space-around;
+  -webkit-box-align: center, space-around;
+      -ms-flex-align: center, space-around;
+          align-items: center, space-around;
   font-family: 'Indie Flower', cursive;
   font-size: 30pt;
 }
