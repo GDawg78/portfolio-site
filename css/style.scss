@@ -44,7 +44,10 @@ nav {
 #homelinkimage {
     width: 30%;
     height: auto;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
     flex-shrink: 3;
