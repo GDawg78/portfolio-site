@@ -33,7 +33,10 @@ nav {
     justify-content: space-around;
 }
 #navinline {
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 #pageid {
     margin-block-start: 1em;

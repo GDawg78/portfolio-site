@@ -56,6 +56,18 @@ nav {
       justify-content: space-around;
 }
 
+#navinline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 10px;
+}
+
 #pageid {
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
