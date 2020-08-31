@@ -111,7 +111,7 @@ nav {
   display: flex;
 }
 
-#formbox {
+.formbox {
   width: auto;
   background-color: green;
   margin-top: auto;
