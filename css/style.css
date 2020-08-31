@@ -116,6 +116,8 @@ nav {
 }
 
 .formbox {
+  width: 75%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
