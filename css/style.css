@@ -47,9 +47,9 @@ nav {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-negative: 3;
       flex-shrink: 3;
   -webkit-box-pack: center;
@@ -57,10 +57,6 @@ nav {
           justify-content: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.navinline {
-  margin-bottom: 20px;
 }
 
 #pageid {

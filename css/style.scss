@@ -28,13 +28,13 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     flex-shrink: 3;
     justify-content: center;
     justify-content: space-around;
 }
 .navinline {
-    margin-bottom: 20px;  
+    
 }
 #pageid {
     margin-block-start: 1em;
