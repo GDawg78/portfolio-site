@@ -76,13 +76,14 @@ nav {
     // flex-direction: column;
     
 }
-.formbox {
+#formbox {
     width: auto;
     height: auto;
     display: flex;
     flex-flow: wrap;
-    align-items: center;
+    align-items: center space-around;
     font-family: 'Indie Flower', cursive;
+    font-size: 30pt;
 
 }
 .hvr-float-shadow {
