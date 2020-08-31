@@ -33,7 +33,8 @@ nav {
     justify-content: space-around;
 }
 #navinline {
-    text
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 #pageid {
     display: block;
