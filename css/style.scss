@@ -9,6 +9,7 @@ p {
   }
 a {
     text-decoration: none;
+    color: black;
 }
 img {
     margin: 15px;
@@ -79,6 +80,7 @@ nav {
     width: 75%;
     height: auto;
     display: flex;
+    flex-flow: wrap;
     align-items: center;
 }
 // #homeimage {
