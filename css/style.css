@@ -56,14 +56,11 @@ nav {
       justify-content: space-around;
 }
 
-#navinline {
+#pageid {
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
-}
-
-#pageid {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
