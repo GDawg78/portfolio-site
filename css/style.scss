@@ -23,7 +23,6 @@ footer {
     flex-shrink: 3;
     justify-content: center;
     margin-left: 85px;
-    border-top-color: black;
 }
 nav {
     background-color: #ffba49;
@@ -66,7 +65,6 @@ nav {
     display: flex;
     flex-direction: column;
     flex-shrink: 3;
-    float: left;
 }
 .homebox {
     width: auto;
@@ -74,8 +72,6 @@ nav {
     height: auto;
     text-align: center;
     display: flex;
-    // flex-direction: column;
-    
 }
 #formbox {
     width: auto;
@@ -85,21 +81,4 @@ nav {
     align-items: center, space-around;
     font-family: 'Indie Flower', cursive;
     font-size: 30pt;
-
 }
-.hvr-float-shadow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-// #homeimage {
-//     width: 42%;
-//     height: auto;
-//     display: flex;
-//     flex-direction: column;
-//     text-align: center;
-// }
