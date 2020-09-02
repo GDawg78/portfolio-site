@@ -69,6 +69,23 @@ nav {
       justify-content: space-around;
 }
 
+.navinline:hover {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Monoton', cursive;
+  font-size: auto;
+  color: #ef6f6c;
+}
+
 .h2p {
   font-family: 'Indie Flower', cursive;
   font-size: 64px;

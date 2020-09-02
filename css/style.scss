@@ -1,3 +1,12 @@
+@mixin navgubbins {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Monoton', cursive;
+    font-size: auto;
+}
 * {
     margin-top: 0;
     margin-left: 0;
@@ -41,6 +50,10 @@ nav {
     flex-shrink: 3;
     justify-content: center;
     justify-content: space-around;
+}
+.navinline:hover {
+    @include navgubbins();
+    color: #ef6f6c;
 }
 .h2p {
     font-family: 'Indie Flower', cursive;
