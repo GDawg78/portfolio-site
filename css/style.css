@@ -1,5 +1,203 @@
 * {
-  margin: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
   padding: 0;
+}
+
+p {
+  font-family: Playfair Display;
+  font-size: 18px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  margin: 15px;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 85px;
+}
+
+nav {
+  background-color: #ffba49;
+  font-family: 'Poiret One', cursive;
+  font-size: 20pt;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.h2p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 64px;
+  margin: auto 0;
+  color: #ef6f6c;
+  width: 100%;
+}
+
+#h2Black {
+  font-family: 'Indie Flower', cursive;
+  font-size: 10rem;
+  margin: auto 0;
+  color: black;
+}
+
+.quicklinks_ind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.img-p {
+  width: 100%;
+}
+
+#pageid {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Monoton', cursive;
+  font-size: auto;
+}
+
+#footerimg {
+  width: 32%;
+  height: auto;
+}
+
+#socialimg {
+  width: 30%;
+  height: auto;
+}
+
+.homebox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+.quicklinks {
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+}
+
+#formbox {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center, space-around;
+      -ms-flex-align: center, space-around;
+          align-items: center, space-around;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30pt;
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .img-p p {
+    font-size: 25pt;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .meimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #h2Black {
+    display: none;
+  }
+  .quicklinks_ind a {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
