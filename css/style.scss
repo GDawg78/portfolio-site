@@ -101,6 +101,29 @@ nav {
     flex-direction: column;
     flex-shrink: 3;
 }
+.centerpro1 {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+.centerpro2 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-block-end: 80px;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+.loading {
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+    text-align: center;
+}
 .quicklinks {
     width: auto;
     margin-top: 5%;
