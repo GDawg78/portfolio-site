@@ -15,6 +15,7 @@
     margin-right: 0;
     margin-bottom: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 p {
     font-family: Playfair Display;
@@ -41,12 +42,14 @@ h2 {
     color: #ef6f6c;
 }
 footer {
+    margin-left: 10%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
-    flex-shrink: 3;
-    justify-content: center;
-    margin-top: 5%;
-    margin-left: 85px;
+    // flex-shrink: 3;
+    justify-content: space-evenly;
+    // margin-top: 5%;
+    // margin-left: 85px;
 }
 nav {
     background-color: #ffba49;
@@ -55,7 +58,7 @@ nav {
     text-align: center;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     flex-shrink: 3;
     justify-content: center;
@@ -173,7 +176,7 @@ input[type=text], select {
 .quicklinks {
     width: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
