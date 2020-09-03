@@ -9,35 +9,46 @@
 </head>
 <body>
     <nav>
-        <a href="../index.html">About</a>
-		<a href="projects.html">Projects</a>
-        <a href="cv.html">CV</a>
-        <a href="blog.html">Blog</a>
-		<a id="pageid" href="#">Contact</a>
+        <a class="navinline" href="../index.html">About</a>
+		<a class="navinline" href="projects.html">Projects</a>
+        <a class="navinline" href="cv.html">CV</a>
+        <a class="navinline" href="blog.html">Blog</a>
+		<a class="navinline" id="pageid" href="#">Contact</a>
     </nav>
 <section id="formbox">
-    <form action="https://formspree.io/xwkrdndw" method="POST"></form>
-        <label>
-            Name:
+    <form action="https://formspree.io/xwkrdndw" method="POST"></form>   
+        <div id="formind">
+            <label>Name:
             <input type="text" name="_replyto" placeholder="First Name">
-        </label>
-        <label>
-            Surname:
-            <input type="text" name="_replyto" placeholder="Surname">
-        </label>
-        <label>
-            Mobile:
-            <input type="text" name="Mobile" placeholder="Mobile Number">
-        </label>
-        <label>
-            Your email:
-            <input type="text" name="_replyto" placeholder="email">
-        </label>
-        <label>
-            Whats your beef?
-            <textarea name="message" placeholder="Leave a message for me here and click send and I'll get back to you ASAP"></textarea>
-        </label><br>
-        <button type="submit">Send</button>
+            </label>
+        </div>
+        <div id="formind">
+            <label>   
+                Surname:
+                <input type="text" name="_replyto" placeholder="Surname">
+            </label>
+        </div>
+        <div id="formind">
+            <label>
+                Mobile:
+                <input type="text" name="Mobile" placeholder="Mobile Number">
+            </label>
+        </div>
+        <div id="formind">
+            <label>
+                Your email:
+                <input type="text" name="_replyto" placeholder="email">
+            </label>
+        </div>
+        <div id="formind">
+            <label>
+                Whats your beef?
+                <input id="formbeefbox" type="text" name="message" placeholder="Ask me a question or write me something nice in here">
+            </label>
+        </div>
+        <div>
+            <button id="formbutton" type="submit">Send</button>
+        </div>
     </form>
 </section>
     <footer>
