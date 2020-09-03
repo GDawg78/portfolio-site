@@ -70,6 +70,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
+//   button is a button, kept the same boring design.
   button {
     width: 200px;
     display: block;
@@ -142,6 +143,7 @@ input[type=text], select {
     flex-direction: column;
     flex-shrink: 3;
 }
+// flex for loading gif on projects page
 .centerpro1 {
     width: auto;
     display: flex;
@@ -150,6 +152,7 @@ input[type=text], select {
     align-content: center;
     margin: auto;
 }
+// flex and font styling for projects page
 .centerpro2 {
     width: auto;
     display: flex;
@@ -160,6 +163,7 @@ input[type=text], select {
     font-family: 'Poiret One', cursive;
     font-size: 40px;
 }
+// Holder page typography
 .loading {
     font-family: 'Poiret One', cursive;
     font-size: 60px;
@@ -175,33 +179,35 @@ input[type=text], select {
     text-align: center;
     flex-shrink: 3;
 }
+// parent container for forms on contact page
 #formbox {
     width: 100;
     margin: 40px;
     display: block;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    flex-flow: wrap;
+    flex-direction: row;
     font-family: 'Indie Flower', cursive;
     font-size: 30pt;
 }
+// child sections for forms individual sections
 #formind {
     display:flex;
     margin-right: 10%;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
     // border: 2px solid red;
     // border-radius: 4px;
 }
+// playing with form button
 #formbutton {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
 }
+// larger box for free flow text
 #formbeefbox {
     display: block;
     // display: flex;
@@ -210,6 +216,7 @@ input[type=text], select {
     height: 300px;
     width: 1000px;
 }
+// media switcher for larger screen (mostly for playing)
 @media only screen and (min-width: 1200px) {
     .img-p {
       display: flex;
@@ -224,6 +231,7 @@ input[type=text], select {
         font-size: 80px;
     }
 }
+// media switcher from larger to smaller screens
 @media only screen and (max-width: 1199px) {
     .meimg {
         display: block;
@@ -248,6 +256,7 @@ input[type=text], select {
     margin: 10px;
     padding: 5px 0px;
   }
+//   container for the cv page download link
   #cvcircle {
     width: 300px;
     height: 300px;
@@ -260,6 +269,7 @@ input[type=text], select {
     justify-content: center;
     text-align: auto;
 }
+// preview section for the blog posts
 .blog-preview {
     margin-right: 5%;
     margin-left: 5%;
@@ -269,6 +279,7 @@ input[type=text], select {
     // flex-wrap: nowrap;
     // align-content: center;
 }
+// divider for the form which I got totally stuck on for ages!
 #formbutdiv {
     width: 100;
 }
