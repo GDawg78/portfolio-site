@@ -48,6 +48,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5%;
   margin-left: 85px;
 }
 
@@ -95,6 +96,7 @@ button {
   color: white;
   padding: 14px 20px;
   margin: auto;
+  margin-top: 3%;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -244,7 +246,7 @@ button {
 }
 
 #formbox {
-  width: auto;
+  width: 100;
   margin: 40px;
   display: block;
   display: -webkit-box;
@@ -283,22 +285,24 @@ button {
 }
 
 #formbutton {
-  width: 100%;
-  margin-top: 20%;
-}
-
-#formbeefbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#formbeefbox {
+  display: block;
   height: 300px;
-  width: 1100px;
+  width: 1000px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -364,5 +368,15 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: auto;
+}
+
+.blog-preview {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#formbutdiv {
+  width: 100;
 }
 /*# sourceMappingURL=style.css.map */

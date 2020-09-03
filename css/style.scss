@@ -1,3 +1,4 @@
+// Navigation styling mixin
 @mixin navgubbins {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -7,6 +8,7 @@
     font-family: 'Monoton', cursive;
     font-size: auto;
 }
+// Consistent styling throughout the site
 * {
     margin-top: 0;
     margin-left: 0;
@@ -43,6 +45,7 @@ footer {
     flex-direction: row;
     flex-shrink: 3;
     justify-content: center;
+    margin-top: 5%;
     margin-left: 85px;
 }
 nav {
@@ -74,14 +77,17 @@ input[type=text], select {
     color: white;
     padding: 14px 20px;
     margin: auto;
+    margin-top: 3%;
     border: none;
     border-radius: 20px;
     cursor: pointer;
   }
+//   Navigation hover effect including styling from the mixin
  .navinline:hover {
     @include navgubbins();
     color: #ef6f6c;
 }
+// Pink hello font styling
 .h2p {
     font-family: 'Indie Flower', cursive;
     font-size: 64px;
@@ -89,12 +95,14 @@ input[type=text], select {
     color: #ef6f6c;
     width: 100%;
 }
+// black Indie font styling
 #h2Black {
     font-family: 'Indie Flower', cursive;
     font-size: 10rem;
     margin: auto 0;
     color: black;
 }
+// quicklinks child container with flex
 .quicklinks_ind {
     display: flex;
     flex-direction: row;
@@ -102,6 +110,7 @@ input[type=text], select {
 .img-p {
     width: 100%;
 }
+// styling of current page
 #pageid {
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -111,16 +120,21 @@ input[type=text], select {
     font-family: 'Monoton', cursive;
     font-size: auto;
 }
+// shrinking of he footer images
 #footerimg {
     width: 32%;
     height: auto;
 }
+// Large quicklinks images shink
 #socialimg {
     width: 30%;
     height: auto;
 }
+// my hero image wich changes places dependant on @media size
 .meimg {
+    // align-self: center;
 }
+// general body of the page with some formatting
 .homebox {
     width: 100%;
     display: flex;
@@ -151,6 +165,7 @@ input[type=text], select {
     font-size: 60px;
     text-align: center;
 }
+// homepage quicklinks section parent container with some flex sizing and margins
 .quicklinks {
     width: auto;
     margin-top: 5%;
@@ -161,7 +176,7 @@ input[type=text], select {
     flex-shrink: 3;
 }
 #formbox {
-    width: auto;
+    width: 100;
     margin: 40px;
     display: block;
     display: flex;
@@ -182,15 +197,18 @@ input[type=text], select {
     // border-radius: 4px;
 }
 #formbutton {
-    width: 100%;
-    margin-top: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
 }
 #formbeefbox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
     height: 300px;
-    width: 1100px;
+    width: 1000px;
 }
 @media only screen and (min-width: 1200px) {
     .img-p {
@@ -198,6 +216,7 @@ input[type=text], select {
       flex-direction: row;
       align-content: center;
     }
+    // general sizing of image paragraphing (switches with @media size)
     .img-p p{
         font-size: 25pt;
     }
@@ -223,6 +242,7 @@ input[type=text], select {
         width: 330px;
     }
 }
+// playing around with a hr to divide page up visually
 .hr-new2 {
     border-top: 5px dashed black;
     margin: 10px;
@@ -239,4 +259,16 @@ input[type=text], select {
     flex-direction: row;
     justify-content: center;
     text-align: auto;
+}
+.blog-preview {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: nowrap;
+    // align-content: center;
+}
+#formbutdiv {
+    width: 100;
 }
