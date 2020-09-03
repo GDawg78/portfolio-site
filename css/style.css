@@ -69,8 +69,6 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-negative: 3;
-      flex-shrink: 3;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -145,7 +143,9 @@ button {
 }
 
 .img-p {
-  width: 100%;
+  width: 95%;
+  font-size: 18pt;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #pageid {
@@ -172,6 +172,38 @@ button {
 #socialimg {
   width: 30%;
   height: auto;
+}
+
+#mebox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.meboxtxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3%;
+}
+
+.meimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .homebox {
@@ -300,7 +332,7 @@ button {
   width: 1000px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 2000px) {
   .img-p {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -313,10 +345,37 @@ button {
         align-content: center;
   }
   .img-p p {
-    font-size: 25pt;
+    font-size: 30pt;
   }
   #formbox {
     font-size: 80px;
+  }
+  nav {
+    font-size: 40pt;
+  }
+  .img-p {
+    font-size: 30pt;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .img-p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .img-p p {
+    font-size: 17pt;
+  }
+  #formbox {
+    font-size: 80px;
+  }
+  nav {
+    font-size: 30pt;
   }
 }
 
@@ -333,8 +392,29 @@ button {
   .quicklinks_ind a {
     width: 100%;
   }
+  .img-p {
+    font-size: 12pt;
+  }
   #formbeefbox {
     width: 330px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav {
+    font-size: 15pt;
+  }
+  #mebox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-p {
+    font-size: 12pt;
   }
 }
 
