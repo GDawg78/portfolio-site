@@ -1,77 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gavin Simms - Simple Portfolio Site in HTML and CSS only</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gavin Simms</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredericka+the+Great&family=Indie+Flower&family=Monoton&family=Noto+Sans&family=Playfair+Display&family=Poiret+One&display=swap"
-    rel="stylesheet">
-  <script src="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredericka+the+Great&family=Indie+Flower&family=Monoton&family=Noto+Sans&family=Playfair+Display&family=Poiret+One&display=swap" integrity="sha384-VHAbVK82A7K/CSUQ3h4pqoUB6fuEYNISnvZ7iPiIOhoDmg2aZi+UVTODBq+RuHSF" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css" integrity="sha384-ODcNZIVFR6QrT3ENZkwWwIUkPiuXvcx2WJ+IpLJJr5AKAujPAmSpFtbcWicZ4Kh3">
-</head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Gavin.</a>
 
-<body>
-    <!-- navigation, similar on all pages -->
-  <nav>
-    <a id="pageid" class="navinline" href="#">About</a>
-    <a class="navinline" href="pages/projects.html">Projects</a>
-    <a class="navinline" href="pages/cv.html">CV</a>
-    <a class="navinline" href="pages/blog.html">Blog</a>
-    <a class="navinline" href="pages/contact.html">Contact</a>
-  </nav>
-  <!-- Main section of page -->
-  <main>
-      <section id="mebox">
-        <img class="meimg" src="images/IMG_2819.jpeg" alt="About Me">
-        <div class="meboxtxt">
-            <p class="h2p">Hello,</pr><br>
-            <p class="img-p">My name is Gavin.</p>
-            <p class="img-p">Aged forty something I decided to transition from 20 years in IT Management & Systems Engineering to Software Development. I'm only at the beginning of my journey so please keep dropping back and looking in at my projects to see how I'm moving on, and if you have any questions please pop me a line on the contacts page, or feel free to follow me on my social channels.</p>
-            <br><p class="h2p">Thanks!</p>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Résumé</a>
+        <a href="#">Contact</a>
+        <a href="#">Thoughts</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h1>Hi, I'm Gavin Simms</h1>
+        <h3>Technology Evangilist</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta consequuntur dolorem fugiat quam suscipit. Debitis hic ullam facilis repellat doloremque nesciunt cumque illum, ex sunt eum omnis.</p>
+        <div class="btn-box">
+          <a href="#">Test 1</a>
+          <a href="#">Test 2</a>
         </div>
-      </section>
+      </div>
+
+      <div class="home-sci">
+        <a href="#" class="href"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="#" class="href"><i class='bx bxl-medium-square' ></i></a>
+        <a href="#" class="href"><i class='bx bxl-twitter'></i></a>
+      </div>
+
+      <span class="home-imgHover"></span>
     </section>
-    <!-- Section for getting to links, slightly superfluous, but good chance to add graphics and hrs-->
-    <section class="quicklinks">
-        <hr class="hr-new2">
-        <!-- Projects -->
-        <div class="quicklinks_ind">
-            <a href="pages/projects.html"><img src="images/social_icons/002-innovation.png" alt="Projects" id="socialimg"></a>
-            <p id="h2Black">Projects</p>
-        </div>
-        <hr class="hr-new2">
-        <!-- cv -->
-        <div class="quicklinks_ind">
-            <a href="pages/cv.html"><img src="images/social_icons/001-linkedin.png" alt="CV" id="socialimg"></a>
-            <p id="h2Black">CV</p>
-        </div>
-        <hr class="hr-new2">
-        <!-- blog -->
-        <div class="quicklinks_ind">
-            <a href="pages/blog.html"><img src="images/social_icons/003-rss.png" alt="Blog" id="socialimg"></a>
-            <p id="h2Black">Blog</p>
-        </div>
-        <hr class="hr-new2">
-        <!-- contact -->
-        <div class="quicklinks_ind">
-            <a href="pages/contact.html"><img src="images/social_icons/004-contact-us.png" alt="Contact" id="socialimg"></a>
-            <p id="h2Black">Contact</p>
-        </div>
-        <hr class="hr-new2">
-    </section>
-    <!-- social footer -->
-  </main>
-  <footer>
-    <a href="https://www.linkedin.com/in/gavinsimms"><img src="images/social_icons/001-linkedin.png" alt="LinkedIn"
-        id="footerimg"></a>
-    <a href="https://twitter.com/gavinsimms"><img src="images/social_icons/005-twitter.png" alt="Twitter"
-        id="footerimg"></a>
-    <a href="https://github.com/GDawg78"><img src="images/social_icons/006-github.png" alt="Github" id="footerimg"></a>
-    <a href="https://codepen.io/gdawg78"><img src="images/social_icons/007-codepen.png" alt="CodePen"
-        id="footerimg"></a>
-  </footer>
-</body>
-
+  </body>
 </html>
